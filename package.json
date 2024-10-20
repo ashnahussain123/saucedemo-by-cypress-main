@@ -1,0 +1,24 @@
+{
+  "name": "saucedemo-by-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "Testrun": "npx cypress run --browser chrome --headed --spec 'cypress/e2e/Test_Product_Checkout.cy.js'",
+    "cy:run": "cypress run --browser chrome --headless"
+  },
+  "keywords": [],
+  "author": "Ashna Hussain",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-parallel": "^0.13.0",
+    "minimatch": "^9.0.3",
+    "mochawesome": "^7.1.3",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "dependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
